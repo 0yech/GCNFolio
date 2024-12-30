@@ -21,6 +21,7 @@ export default function Navbar() {
 		  height="40"
     	/>
       </a>
+    <p className='navtext'>Use arrow keys to move around ↑↓← →</p>
     </div>
   );
 }

@@ -5,4 +5,5 @@ html, body, #root, canvas {
   height: 100vh;
   overflow: hidden;
   display: block;
+  background-color: #000006;
 }

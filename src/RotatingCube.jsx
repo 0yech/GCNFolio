@@ -4,6 +4,7 @@ import { RoundedBox, MeshTransmissionMaterial } from '@react-three/drei'; // Imp
 import { gsap } from 'gsap';
 import Button from './Button';
 import Container from './Container';
+import BotContainer from './BotContainer';
 import * as THREE from 'three';
 
 export default function RotatingCube() {
@@ -176,39 +177,52 @@ export default function RotatingCube() {
       >
         Options
       </Button>
-      {/* Placeholder pour les autres faces */}
-      <Button
+      <BotContainer
         ref={topContentRef}
         rotation={[Math.PI / 2, 0, 0]}
         position={[0, -0.51, 0]}
+        nae="Featured Project - GameboySQ"
+        description={["The final 42 Piscine project BSQ, recreated on Gameboy. Inspired by learning low level and game development",
+        <br/>,<br/>,
+        "Check the project ",
+        <a href="https://github.com/0yech/GameboySQ">
+        here
+        </a>]}
+        imageUrl="GB_Logo.png"
       >
-        Bot Placeholder
-      </Button>
+      </BotContainer>
       <Button
         ref={bottomContentRef}
         rotation={[-Math.PI / 2, 0, 0]}
         position={[0, 0.51, 0]}
+        link="https://github.com/0yech"
       >
-        Top Placeholder
+        Github
       </Button>
-      <Button
+      <Container
         ref={leftContentRef}
         rotation={[0, -Math.PI / 2, 0]}
         position={[-0.51, 0, 0]}
+        nae="Specializing in C @ 42"
+        description={["Currently recreating a Shell in C (minishell)",
+        <br/>,<br/>,
+        "Technologies and languages i've worked with so far :",
+        <br/>,<br/>,
+        "C, PHP, Bash, Python & Django, Ruby, JS"]}
+        imageUrl="C_Logo.png"
       >
-        Left Placeholder
-      </Button>
+      </Container>
       <Container
-      ref={rightContentRef}
-      rotation={[0, Math.PI / 2, 0]}
-      position={[0.51, 0, 0]}
-      nae="Cheyo"
-      description={["42 Student in Lausanne, learning C and Low Level enthusiast.",
-      <br/>,<br/>,
-      "This Portfolio is a recreation of the Gamecube Bios"]}
-      imageUrl="cheyo.jpeg"
-    >
-    </Container>
+        ref={rightContentRef}
+        rotation={[0, Math.PI / 2, 0]}
+        position={[0.51, 0, 0]}
+        nae="Cheyo"
+        description={["42 Student in Lausanne, learning C and Low Level enthusiast.",
+        <br/>,<br/>,
+        "This Portfolio is a recreation of the Gamecube Bios"]}
+        imageUrl="cheyo.jpeg"
+      >
+      </Container>
     </RoundedBox>
   );
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 .navbar {
 	position: fixed;
 	top: 0;
@@ -11,7 +13,6 @@
 	z-index: 1000;
   }
   
-  
   .navbar a {
 	margin-right: 16px;
 	text-decoration: none;
@@ -21,5 +22,10 @@
   .navbar img {
 	display: block;
 	margin-top: 3px;
+  }
+
+  .navtext {
+	font-family: "Inter", sans-serif;	
+	color: #555555
   }
   
