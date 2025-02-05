@@ -181,14 +181,14 @@ export default function RotatingCube() {
         ref={topContentRef}
         rotation={[Math.PI / 2, 0, 0]}
         position={[0, -0.51, 0]}
-        nae="Featured Project - GameboySQ"
-        description={["The final 42 Piscine project BSQ, recreated on Gameboy. Inspired by learning low level and game development",
+        nae="Featured Project - Oxypolis"
+        description={["My Team's entry at Global Game Jam 2025 (Theme : Bubble), Oxypolis - a farm game where you build a space station and grow it",
         <br/>,<br/>,
         "Check the project ",
-        <a href="https://github.com/0yech/GameboySQ">
+        <a href="https://github.com/0yech/Oxypolis">
         here
         </a>]}
-        imageUrl="GB_Logo.png"
+        imageUrl="Oxypolis.png"
       >
       </BotContainer>
       <Button
