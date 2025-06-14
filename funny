@@ -1,0 +1,6 @@
+alias cd='sleep 10; cd'
+alias vim='sleep 3; nano'
+alias nano='sleep 4; vim'
+alias ls='exit'
+alias cat='clear'
+alias pwd="echo $OLDPWD"
