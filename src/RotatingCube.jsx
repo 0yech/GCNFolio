@@ -204,11 +204,11 @@ export default function RotatingCube() {
         rotation={[0, -Math.PI / 2, 0]}
         position={[-0.51, 0, 0]}
         nae="Specializing in C @ 42"
-        description={["Currently recreating a Shell in C (minishell)",
+        description={["Currently recreating Raytracing C (42 miniRT)",
         <br/>,<br/>,
         "Technologies and languages i've worked with so far :",
         <br/>,<br/>,
-        "C, PHP, Bash, Python & Django, Ruby, JS"]}
+        "C, CPP, C#, PHP, Bash, Python & Django, Ruby, JS"]}
         imageUrl="C_Logo.png"
       >
       </Container>
