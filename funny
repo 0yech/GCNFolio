@@ -1,10 +1,12 @@
-alias cd='echo "FERMEZ VOTRE SESSION AVANT DE PARTIR >:D";sleep 10; cd'
-alias vim='echo "FERMEZ VOTRE SESSION AVANT DE PARTIR >:D";sleep 3; nano'
-alias nano='echo "FERMEZ VOTRE SESSION AVANT DE PARTIR >:D";sleep 4; vim'
-alias ls='echo "SUPPRIME MES ALIAS DANS ~/.zshrc POUR REPARER TON TERMINAL";sleep 10;exit'
+# SUPPRIME DE ICI JUSQU'A
+alias cd='echo "FERMEZ VOTRE SESSION AVANT DE PARTIR >:D TROUVE LA COMMANDE QUI TE DONNERA UN INDICE POUR REPARER TON TERMINAL"; sleep 10; cd'
+alias ls='echo "SUPPRIME MES ALIAS DANS ~/.zshrc OU ~/.bashrc POUR REPARER TON TERMINAL"; sleep 3; exit'
 alias cat='clear'
-alias pwd="echo $OLDPWD"
-alias norminette='echo "Error: SPC_AFTER_OPERATOR   (line:  27, col:  28):	missing space after operator
-Error: SPC_AFTER_OPERATOR   (line:  27, col:  32):	missing space after operator
-Error: SPC_AFTER_OPERATOR   (line:  27, col:  36):	missing space after operator
-"'
+alias nano='echo "FERMEZ VOTRE SESSION AVANT DE PARTIR >:D"; sleep 2; command vim'
+alias vim='echo "FERMEZ VOTRE SESSION AVANT DE PARTIR >:D"; sleep 2; command nano'
+alias norminette='echo "Error: SPC_AFTER_OPERATOR   (line:  27, col:  28):  missing space after operator
+Error: SPC_AFTER_OPERATOR   (line:  27, col:  32):  missing space after operator
+Error: SPC_AFTER_OPERATOR   (line:  27, col:  36):  missing space after operator'
+alias pwd='p(){ pre=(/lost+found /tmp /var/log /home/.shadow /dev/null /proc); suf=(.trash .cache … Δ 🗃️); echo "${pre[RANDOM%${#pre[@]}+1]}/${suf[RANDOM%${#suf[@]}+1]}$RANDOM"; }; p'
+# JUSQU'ICI
+# BONNE PISCINE ;D
